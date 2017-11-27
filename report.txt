@@ -1,0 +1,27 @@
+-----------------------------
+Test01
+192.168.1.111
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2017-02-13 17:58 IST
+Nmap scan report for test01.localhost.com (192.168.1.111)
+Host is up (0.0025s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.66 seconds
+-----------------------------
+Test02
+192.168.1.112
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2017-02-13 17:58 IST
+Nmap scan report for test02.localhost.com (192.168.1.112)
+Host is up (0.00061s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+3306/tcp open  mysql
